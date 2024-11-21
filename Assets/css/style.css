@@ -1,0 +1,138 @@
+/*Import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:slnt@-14..14&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+/*Tudo*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Cabeçalho*/
+#header_nav:hover {
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgb(232, 192, 222);
+    padding: 30px;
+    width: 100%;
+}
+
+/*Logo Cabeçalho*/
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+/*navegação*/
+nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #71013d;
+    font-family: "Exo 2", sans-serif;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/*animação abas navegação*/
+li a:hover {
+    background-color: #8f0062;
+}
+
+.active {
+    text-decoration: dashed;
+    background-color: rgb(215, 5, 92);
+}
+
+/*Texto da página Home*/
+#title {
+
+    text-align: center;
+    padding: 10px;
+}
+
+#title p {
+    margin: 10px;
+}
+
+/*Bonito-Cidade*/
+.galeria {
+    display: flex;
+    align-items: center;
+    background-color: rgba(232, 192, 222, 0.314);
+    border-radius: 35px;
+    padding: 2%;
+}
+
+#text_bonito {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery img {
+    width: 50%;
+    border-radius: 100px;
+    margin-bottom: 10px;
+
+}
+
+button {
+    /*Input's submit*/
+    background-color: #fd6fb8;
+    /*cor de fundo*/
+    color: #fff;
+    /*cor do texto*/
+    border: none;
+    /*sem bordar*/
+    padding: 5px;
+    /*Preenchimento*/
+    border-radius: 5px;
+    /*arredondamento da borda*/
+    cursor: pointer;
+    /*tipo de mouse (cursor)*/
+    transition: background-color 0.3s;
+    /*mudar o fundo*/
+}
+
+button:hover {
+    /*input submit quando o mouse está em cima*/
+    background-color: #cc5a95;
+    /*cor de fundo muda*/
+}
+
+/*Rodapé*/
+footer {
+    background-color: #71013d;
+    color: white;
+    padding: 30px;
+    bottom: 0%;
+    width: 100%;
+}
